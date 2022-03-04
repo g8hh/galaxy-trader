@@ -1,0 +1,86 @@
+<html>
+<head>
+    <!-- external libraries --><meta charset="utf-8" />
+    <title>银河商人</title>
+    <script type="text/javascript" src="prototype.js"></script>
+    <script src="TweenMax.min.js"></script>
+    <script src="https://cdn.bootcdn.net/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="jquery-ui.js"></script>
+    <link rel="stylesheet" href="css/jquery-ui.css">
+    <!--<link rel="stylesheet" href="http://code.jquery.com/ui/1.11.0/themes/black-tie/jquery-ui.css">-->
+    <link rel="stylesheet" href="css/style.css">
+    <script type="text/javascript">
+        //resolve jQuery-Prototype conflict on '$'
+        // call 'jQuery("stuff")' instead of '$("stuff")' for jQuery code
+        // or use jQuery-plugin style: (function( $ ) { $("stuff").derp(); })( jQuery );
+        jQuery.noConflict();
+    </script>
+    <style type="text/css"> body { margin: 0; padding: 0; color: #FFFFFF;
+        background-image:url('css/images/green-star-sky.jpg'); }
+    </style>
+
+    <!-- framework code -->
+    <script type="text/javascript" src="js/ext/uuid.js"></script>
+    <script type="text/javascript" src="js/framework/Vec2D.js"></script>
+    <script type="text/javascript" src="js/framework/Service.js"></script>
+    <script type="text/javascript" src="js/framework/EventBus.js"></script>
+    <script type="text/javascript" src="js/framework/Utility.js"></script>
+    <script type="text/javascript" src="js/framework/AudioManager.js"></script>
+    <script type="text/javascript" src="js/framework/BaseView.js"></script>
+    <script type="text/javascript" src="js/framework/MenuView.js"></script>
+    <script type="text/javascript" src="js/framework/FormDialog.js"></script>
+    <script type="text/javascript" src="js/framework/TextAreaDialog.js"></script>
+
+    <!-- data resources -->
+    <script type="text/javascript" src="data/data.json"></script>
+    <script type="text/javascript" src="data/world_seed.json"></script>
+
+    <!-- game code -->
+        <!-- model -->
+    <script type="text/javascript" src="js/model/CommodityModel.js"></script>
+    <script type="text/javascript" src="js/model/VesselModel.js"></script>
+    <script type="text/javascript" src="js/model/FactoryModel.js"></script>
+    <script type="text/javascript" src="js/model/StationModel.js"></script>
+    <script type="text/javascript" src="js/model/LocationModel.js"></script>
+    <script type="text/javascript" src="js/model/AgentModel.js"></script>
+    <script type="text/javascript" src="js/model/CorporationModel.js"></script>
+    <script type="text/javascript" src="js/model/PlayerModel.js"></script>
+    <script type="text/javascript" src="js/model/GalaxySim.js"></script>
+    <script type="text/javascript" src="js/model/RandomGen.js"></script>
+        <!-- view -->
+    <script type="text/javascript" src="js/view/CommodityView.js"></script>
+    <script type="text/javascript" src="js/view/VesselView.js"></script>
+    <script type="text/javascript" src="js/view/FactoryView.js"></script>
+    <script type="text/javascript" src="js/view/StationView.js"></script>
+    <script type="text/javascript" src="js/view/LocationView.js"></script>
+    <script type="text/javascript" src="js/view/MapNode.js"></script>
+    <script type="text/javascript" src="js/view/MapView.js"></script>
+    <script type="text/javascript" src="js/view/PurchaseDialog.js"></script>
+    <script type="text/javascript" src="js/view/TradeDialog.js"></script>
+    <script type="text/javascript" src="js/view/PlayerHud.js"></script>
+    <script type="text/javascript" src="js/view/FTUE.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+
+    <script type="text/javascript">
+        jQuery( document ).ready( function(){
+            game_create();
+        });
+    </script>
+</head>
+
+<body>
+<script src="chs.js?202106041511"></script>
+<script src="//g8hh.com/zh/core.js"></script>
+<div id="content"></div></body>
+<hr>
+<a href="devlog.txt" target="_blank">Dev Log</a>
+<audio controls="true" autoplay="true" loop="true" src="audio/DST-Ariely.mp3" volume="0.6"></audio>
+</html>
+<!--客服 开始-->
+<link rel="stylesheet" href="//g8hh.com/static/css/kf.css" type="text/css" media="screen" charset="utf-8">
+<script src="//g8hh.com/static/js/kf.js"></script>
+<!-- 客服 结束 -->
+<!--站长统计-->
+    <div style="display: none">
+       <script type="text/javascript" src="https://v1.cnzz.com/z_stat.php?id=1280006740&web_id=1280006740"></script>
+    </div>
