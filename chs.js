@@ -55,7 +55,7 @@ var cnItems = {
     "Inputs": "输入",
     "Location": "地点",
     "Menu": "菜单",
-    "Nuke": "核弹",
+    "Nuke": "核弹(重玩)",
     "Outputs": "输出",
     "Pause": "暂停",
     "Restaurant at the End": "尽头的餐厅",
